@@ -1,0 +1,39 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Forum&family=Roboto+Mono:ital@0;1&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url('./fonts/SuisseIntl-Regular.otf');
+}
+
+@font-face {
+  font-family: 'RetroSailing';
+  src: url('./fonts/RetroSailing.ttf');
+}
+
+@font-face {
+  font-family: 'NeueHaasDisplay';
+  src: url('./fonts/NeueHaasDisplay-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'HelveticaNowDisplay';
+  src: url('./fonts/HelveticaNowDisplay-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'BBCondensed';
+  src: url('./fonts/BBCondensed.ttf');
+}
+
+/* space-y-24 bg-[#F9F6EF] */
+
+body {
+  background-color: black;
+  color: white;
+  /* background-color: #f9f6ef;
+  color: #282827; */
+}
